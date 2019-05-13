@@ -1,0 +1,24 @@
+<div class="burger-div">
+	<div class="row">
+		<div class="col-6">
+            {{id}}
+			{{burger_name}}
+		</div>
+		<div class="col-6">
+			<button class="devour-burger" data-id="{{id}}" data-newdevour="{{devoured}}">
+				{{#if devoured}}Devour It!{{else}}Reorder it!{{/if}}
+			</button>
+            <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+		</div>
+	</div>
+</div>
+
+{{!-- <li>
+	{{name}}
+
+	<button class="change-sleep" data-id="{{id}}" data-newDevour="{{devoured}}">
+		{{#if sleep}}SLEEP TIME!{{else}}WAKE UP!{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li> --}}

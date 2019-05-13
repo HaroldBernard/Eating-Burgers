@@ -1,0 +1,43 @@
+.imgSlide {
+    animation: slide 10s linear infinite;
+    height: 200px;
+}
+.slide {
+    animation: slide 10s linear infinite;
+    float: left;
+    border: dotted;
+}
+.jumbotron {
+    margin: 0px;
+    background-image: url(../img/road.jpg);
+    background-size: contain
+}
+.row{
+    margin: 0px
+}
+.add {
+    text-align: center;
+    border: solid;
+    background-image: url(../img/road.jpg);
+    background-position-y: bottom;
+}
+ul {
+    padding: 0px;
+}
+@keyframes slide{
+    0%{
+      transform: translate3d(-900px, 0, 0);
+    }
+    100%{
+      transform: translate3d(1300px, 0, 0);
+    }
+  }
+  .col {
+      border: solid
+  }
+  .holder {
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+    border: solid;
+  }
