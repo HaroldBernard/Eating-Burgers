@@ -10,7 +10,8 @@
 .jumbotron {
     margin: 0px;
     background-image: url(../img/road.jpg);
-    background-size: contain
+    background-size: contain;
+    overflow: hidden;
 }
 .row{
     margin: 0px
