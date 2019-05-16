@@ -75,3 +75,20 @@ h1, h2, h3 {
     }
 }
 }
+@media screen and (min-width: 1300px) {
+    .imgSlide {
+        animation: slide 10s linear infinite;
+        height: 250px;
+    }
+    .slide {
+        animation: slide 10s linear infinite;
+    }
+    @keyframes slide{
+        0%{
+          transform: translate3d(-500px, 0, 0);
+        }
+        100%{
+          transform: translate3d(1900px, 0, 0);
+        }
+    }
+}
